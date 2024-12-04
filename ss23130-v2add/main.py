@@ -7,3 +7,9 @@ b = 5
 print(plus(a,b))
 print(plusx(a,b,2))
 print(mult(a,b))
+
+# Adding multiplication function
+def mult(a, b):
+    return a * b
+
+print("Multiplication result:", mult(4, 7))
